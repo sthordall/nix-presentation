@@ -113,7 +113,6 @@ nix-shell -p redis-desktop-manager
 
 ### Collect Garbage
 
-
 * Old unused packages can be garbage collected
 
 ```sh
@@ -137,6 +136,12 @@ nix-shell -p redis-desktop-manager
 * Reproducible builds
 * Output is sent as derivation to `/nix/store`
 * Demo of `mdslider`
+
+-----
+
+### Active Community
+* [nixpkgs](https://github.com/NixOS/nixpkgs)
+* [nix](https://github.com/NixOS/nix)
 
 -----
 
@@ -174,6 +179,7 @@ The Purely Functional Linux Distribution
 * Easy to share configurations and problems
 * Great for keeping multiple machines in sync
 * Perfect if you like to tinker and screw up your system
+* Currently running system symlinked in `/run/current-system`
 
 -----
 
@@ -203,6 +209,7 @@ lrwxrwxrwx 1 root root 72 Jan  1  1970 /run/current-system/sw/bin/docker -> /nix
 * `nixos-rebuild boot`
 * `nixos-rebuild test`
 * `nixos-rebuild build-vm`
+* System profiles in: `/nix/var/nix/profiles`
 
 -----
 
